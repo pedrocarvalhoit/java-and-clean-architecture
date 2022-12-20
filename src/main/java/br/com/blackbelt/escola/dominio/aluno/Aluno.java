@@ -6,7 +6,7 @@ import java.util.List;
 //Entity class
 public class Aluno {
 
-    private String nome;d
+    private String nome;
     private Cpf cpf;
     private Email email;
     private List<Telefone> telefones = new ArrayList<>();
