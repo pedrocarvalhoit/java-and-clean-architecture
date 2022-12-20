@@ -7,12 +7,12 @@ import java.time.LocalDateTime;
 public class Indicacao {
 
     private Aluno indicado;
-    private Aluno indicate;
+    private Aluno indicante;
     private LocalDateTime dataIndicacao;
 
     public Indicacao(Aluno indicado, Aluno indicate, LocalDateTime dataIndicacao) {
         this.indicado = indicado;
-        this.indicate = indicate;
+        this.indicante = indicate;
         this.dataIndicacao = LocalDateTime.now();
     }
 
@@ -20,8 +20,8 @@ public class Indicacao {
         return indicado;
     }
 
-    public Aluno getIndicate() {
-        return indicate;
+    public Aluno getIndicante() {
+        return indicante;
     }
 
     public LocalDateTime getDataIndicacao() {
