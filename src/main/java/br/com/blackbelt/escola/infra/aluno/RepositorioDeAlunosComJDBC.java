@@ -1,6 +1,7 @@
 package br.com.blackbelt.escola.infra.aluno;
 
 import br.com.blackbelt.escola.dominio.aluno.*;
+import br.com.blackbelt.escola.dominio.aluno.exceptions.AlunoNaoEncontrado;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

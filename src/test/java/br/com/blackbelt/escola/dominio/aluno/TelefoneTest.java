@@ -2,6 +2,8 @@ package br.com.blackbelt.escola.dominio.aluno;
 
 import org.junit.Test;
 
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TelefoneTest {
@@ -28,5 +30,9 @@ public class TelefoneTest {
         assertEquals(ddd, telefone.getDdd());
         assertEquals(numero, telefone.getNumero());
     }
+
+
+
+
 
 }

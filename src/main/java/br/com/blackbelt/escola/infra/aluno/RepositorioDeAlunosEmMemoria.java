@@ -1,11 +1,10 @@
 package br.com.blackbelt.escola.infra.aluno;
 
 import br.com.blackbelt.escola.dominio.aluno.Aluno;
-import br.com.blackbelt.escola.dominio.aluno.AlunoNaoEncontrado;
+import br.com.blackbelt.escola.dominio.aluno.exceptions.AlunoNaoEncontrado;
 import br.com.blackbelt.escola.dominio.aluno.AlunoRepository;
 import br.com.blackbelt.escola.dominio.aluno.Cpf;
 
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 

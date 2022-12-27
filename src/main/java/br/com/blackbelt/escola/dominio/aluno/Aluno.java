@@ -1,9 +1,12 @@
 package br.com.blackbelt.escola.dominio.aluno;
 
+import br.com.blackbelt.escola.dominio.aluno.exceptions.LimiteDeCadastroTelefoneExcedido;
+
 import java.util.ArrayList;
 import java.util.List;
 
 //Entity class
+//AGGREGATE ROOT (DDD)
 public class Aluno {
 
     private String nome;
@@ -19,6 +22,9 @@ public class Aluno {
     }
 
     public void adicionarTelefone(String ddd, String numero){
+        if (telefones.size() >= 1) {
+            throw new IllegalArgumentException("Limite de telefones cadastrado excedido.");
+        }
         this.telefones.add(new Telefone(ddd, numero));
     }
 
