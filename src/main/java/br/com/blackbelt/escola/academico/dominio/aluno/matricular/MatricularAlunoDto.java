@@ -1,7 +1,7 @@
 package br.com.blackbelt.escola.academico.dominio.aluno.matricular;
 
 import br.com.blackbelt.escola.academico.dominio.aluno.Aluno;
-import br.com.blackbelt.escola.academico.dominio.aluno.Cpf;
+import br.com.blackbelt.escola.shared.dominio.Cpf;
 import br.com.blackbelt.escola.academico.dominio.aluno.Email;
 
 public class MatricularAlunoDto {

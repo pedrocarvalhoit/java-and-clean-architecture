@@ -1,7 +1,7 @@
 package br.com.blackbelt.escola.academico.dominio.aluno.matricular;
 
 import br.com.blackbelt.escola.academico.dominio.aluno.AlunoMatriculado;
-import br.com.blackbelt.escola.academico.dominio.PublicadorDeEventos;
+import br.com.blackbelt.escola.shared.dominio.evento.PublicadorDeEventos;
 import br.com.blackbelt.escola.academico.dominio.aluno.Aluno;
 import br.com.blackbelt.escola.academico.dominio.aluno.AlunoRepository;
 

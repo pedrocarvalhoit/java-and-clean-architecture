@@ -1,7 +1,7 @@
 package br.com.blackbelt.escola.gamificacao.infra.selo;
 
 import br.com.blackbelt.escola.gamificacao.dominio.selo.RepositorioDeSelos;
-import br.com.blackbelt.escola.academico.dominio.aluno.Cpf;
+import br.com.blackbelt.escola.shared.dominio.Cpf;
 import br.com.blackbelt.escola.gamificacao.dominio.selo.Selo;
 
 import java.util.ArrayList;

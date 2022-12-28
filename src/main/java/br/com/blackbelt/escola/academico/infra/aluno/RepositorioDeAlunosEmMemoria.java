@@ -3,7 +3,7 @@ package br.com.blackbelt.escola.academico.infra.aluno;
 import br.com.blackbelt.escola.academico.dominio.aluno.Aluno;
 import br.com.blackbelt.escola.academico.dominio.aluno.exceptions.AlunoNaoEncontrado;
 import br.com.blackbelt.escola.academico.dominio.aluno.AlunoRepository;
-import br.com.blackbelt.escola.academico.dominio.aluno.Cpf;
+import br.com.blackbelt.escola.shared.dominio.Cpf;
 
 import java.util.ArrayList;
 import java.util.List;

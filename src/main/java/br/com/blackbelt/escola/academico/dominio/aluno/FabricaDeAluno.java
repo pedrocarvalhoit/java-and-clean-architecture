@@ -1,5 +1,7 @@
 package br.com.blackbelt.escola.academico.dominio.aluno;
 
+import br.com.blackbelt.escola.shared.dominio.Cpf;
+
 public class FabricaDeAluno {
 
     private Aluno aluno;

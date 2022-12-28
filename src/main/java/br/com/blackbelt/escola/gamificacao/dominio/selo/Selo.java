@@ -1,6 +1,6 @@
 package br.com.blackbelt.escola.gamificacao.dominio.selo;
 
-import br.com.blackbelt.escola.academico.dominio.aluno.Cpf;
+import br.com.blackbelt.escola.shared.dominio.Cpf;
 
 public class Selo {
 
